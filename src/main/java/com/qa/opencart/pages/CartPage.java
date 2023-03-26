@@ -1,7 +1,16 @@
 package com.qa.opencart.pages;
 
+import org.openqa.selenium.By;
+
 public class CartPage {
 	
-	int i=10;
+	By cart = By.id("macbook");
+	
+	public CartPage() {
+		
+	}
+	public void addtoCart() {
+		System.out.println("macbook added to cart");
+	}
 
 }
